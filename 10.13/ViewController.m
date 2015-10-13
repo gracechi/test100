@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 30)];
 }
 
 - (void)didReceiveMemoryWarning {
